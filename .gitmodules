@@ -1,0 +1,3 @@
+[submodule "theme/keep"]
+	path = theme/keep
+	url = https://github.com/XPoet/hexo-theme-keep
