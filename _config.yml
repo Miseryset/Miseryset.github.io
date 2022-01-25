@@ -105,3 +105,11 @@ deploy:
  type: git
  repository: git@github.com:Miseryset/Miseryset.github.io.git
  branch: main
+
+# Search
+## See: https://github.com/theme-next/hexo-generator-searchdb
+search:
+  path: search.json
+  field: post
+  content: true
+  format: striptags
