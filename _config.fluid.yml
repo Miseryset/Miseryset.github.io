@@ -150,7 +150,7 @@ color:
 
   # 顶部菜单字体色
   # Color of navigation bar text
-  navbar_text_color: "#fff"
+  navbar_text_color: "#ffa3c9"
   navbar_text_color_dark: "#d0d0d0"
 
   # 副标题字体色
@@ -185,8 +185,8 @@ color:
 
   # 文章超链接字体色
   # Color of post link
-  post_link_color: "#0366d6"
-  post_link_color_dark: "#1589e9"
+  post_link_color: "#ffa3c9"
+  post_link_color_dark: "#ffa3c9"
 
   # 超链接悬浮时字体色
   # Color of link when hovering
@@ -340,7 +340,7 @@ navbar:
     # 不透明度，数字越大透明度越低，注意透明过度可能看不清菜单字体
     # Ratio of opacity, 1.0 is completely opaque
     # available: 0 - 1.0
-    alpha: 0.4
+    alpha: 0.5
 
   # 导航栏菜单，可自行增减，key 用来关联 languages/*.yml，如不存在关联则显示 key 本身的值；icon 是 css class，可以省略；增加 name 可以强制显示指定名称
   # Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name
@@ -470,7 +470,7 @@ index:
   # 头图黑色蒙版的不透明度，available: 0 - 1.0， 1 是完全不透明
   # Opacity of the banner mask, 1.0 is completely opaque
   # Available: 0 - 1.0
-  banner_mask_alpha: 0
+  banner_mask_alpha: 0.03
 
   # 首页副标题的独立设置
   # Independent config of home page subtitle
