@@ -200,13 +200,13 @@ color:
 
   # 分隔线和表格边线的颜色
   # Color of horizontal rule and table border
-  line_color: "#30a9de"
-  line_color_dark: "#30a9de"
+  line_color: "#ffa3c9"
+  line_color_dark: "#ffa3c9"
 
   # 滚动条颜色
   # Color of scrollbar
-  scrollbar_color: "#F1A3A3"
-  scrollbar_color_dark: "#F1A3A3"
+  scrollbar_color: "#ffa3c9"
+  scrollbar_color_dark: "#ffa3c9"
   # 滚动条悬浮颜色
   # Color of scrollbar when hovering
   scrollbar_hover_color: "#ffebeb"
