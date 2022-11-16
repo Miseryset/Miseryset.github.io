@@ -91,7 +91,7 @@ fun_features:
 
     # 游标字符
     # Cursor character
-    cursorChar: "_"
+    cursorChar: "⭐"
 
     # 是否循环播放效果
     # If true, loop animation
@@ -237,7 +237,9 @@ custom_js:
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css:
-- //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/toubudaziji.css #头部打字机颜色效果渐变
+- /css/jianbian.css
+- /css/maccode.css
+- //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/gundongtiao.css #滚动条颜色
 
 # 网页访问统计
 # Analysis of website visitors
