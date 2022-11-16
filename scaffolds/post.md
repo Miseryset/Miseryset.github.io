@@ -2,7 +2,7 @@
 title: {{ title }}
 author: Miseryset
 date: {{ date }}
-update: {{ date }}
+updated: {{ date }}
 tags:
 # 标签
 hide: false
