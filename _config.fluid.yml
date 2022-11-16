@@ -200,17 +200,17 @@ color:
 
   # 分隔线和表格边线的颜色
   # Color of horizontal rule and table border
-  line_color: "#eaecef"
-  line_color_dark: "#435266"
+  line_color: "#30a9de"
+  line_color_dark: "#30a9de"
 
   # 滚动条颜色
   # Color of scrollbar
-  scrollbar_color: "#c4c6c9"
-  scrollbar_color_dark: "#687582"
+  scrollbar_color: "#F1A3A3"
+  scrollbar_color_dark: "#F1A3A3"
   # 滚动条悬浮颜色
   # Color of scrollbar when hovering
-  scrollbar_hover_color: "#a6a6a6"
-  scrollbar_hover_color_dark: "#9da8b3"
+  scrollbar_hover_color: "#ffebeb"
+  scrollbar_hover_color_dark: "#ffebeb"
 
   # 按钮背景色
   # Color of button
@@ -232,14 +232,12 @@ font:
 # 指定自定义 .js 文件路径，支持列表；路径是相对 source 目录，如 /js/custom.js 对应存放目录 source/js/custom.js
 # Specify the path of your custom js file, support list. The path is relative to the source directory, such as `/js/custom.js` corresponding to the directory `source/js/custom.js`
 custom_js:
-- //cdn.jsdelivr.net/gh/bynotes/texiao/source/js/qipao.js #头部上升气泡
 - //cdn.jsdelivr.net/gh/bynotes/texiao/source/js/xiaoxuehua.js #小雪花飘落
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css:
 - //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/toubudaziji.css #头部打字机颜色效果渐变
-- //cdn.jsdelivr.net/gh/bynotes/texiao/source/css/gundongtiao.css #滚动条颜色
 
 # 网页访问统计
 # Analysis of website visitors
