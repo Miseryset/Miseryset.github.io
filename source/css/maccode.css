@@ -7,7 +7,8 @@ figure.highlight { /* 控制代码框顶栏颜色、宽度、圆角等 */
     border-radius: 10px;
     box-shadow: 1px 2px 22px 1px rgba(0, 0, 0, .3);
     padding-top: 16px;
-    z-index:998;
+    z-index: 998;
+    overflow: hidden;
 }
 figure.highlight>table {
 	border-radius: 10px;
@@ -23,5 +24,5 @@ figure.highlight::before { /* 绘制三个小圆点 */
     margin-top: -9px;
     position: absolute;
     width: 12px;
-    z-index:999;
+    z-index: 999;
 }
