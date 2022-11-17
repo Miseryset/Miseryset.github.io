@@ -5,8 +5,6 @@ on:
     branches:
       - hexo # default branch
 
-env:
-  GIT_DEPLOY_BRANCH: main
 jobs:
   pages:
     runs-on: ubuntu-latest
