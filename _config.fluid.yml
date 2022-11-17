@@ -959,7 +959,7 @@ about:
 #  avatar: /img/avatar.png
   avatar: https://q.qlogo.cn/g?b=qq&nk=2068467423&s=640
   name: "Miseryset"
-  intro: "We have to change ourselves,don't we?"
+  intro: "懂得越多，懂得越少，懂得越少，懂得越多"
   # 更多图标可从 https://hexo.fluid-dev.com/docs/icon/ 查找，`class` 代表图标的 css class，添加 `qrcode` 后，图标不再是链接而是悬浮二维码
   # More icons can be found from https://hexo.fluid-dev.com/docs/en/icon/  `class` is the css class of the icon. If adding `qrcode`, The icon is no longer a link, but a hovering QR code
   icons:
