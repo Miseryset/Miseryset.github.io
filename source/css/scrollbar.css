@@ -1,6 +1,7 @@
 *::-webkit-scrollbar {
-    width: 6px;
-    height: 6px;
+    width: 4px;
+    height: 4px;
+    background-color: transparent;
 }
 
 *::-webkit-scrollbar-thumb {
@@ -12,7 +13,6 @@
 *::-webkit-scrollbar-corner {
     background-color: transparent;
 }
-
 *::-moz-selection {
     color: #fff;
     background-color: #e58a8a;
