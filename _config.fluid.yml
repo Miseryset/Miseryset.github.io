@@ -233,7 +233,9 @@ font:
 # Specify the path of your custom js file, support list. The path is relative to the source directory, such as `/js/custom.js` corresponding to the directory `source/js/custom.js`
 custom_js:
 - /js/available.js #文章时效性提示
-- //cdn.jsdelivr.net/gh/bynotes/texiao/source/js/xiaoxuehua.js #小雪花飘落
+#- //cdn.jsdelivr.net/gh/bynotes/texiao/source/js/xiaoxuehua.js #小雪花飘落
+- https://npm.elemecdn.com/tzy-blog/lib/js/other/sakura.js #樱花飘落
+
 
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
