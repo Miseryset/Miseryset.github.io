@@ -902,8 +902,10 @@ giscus:
 #---------------------------
 archive:
   banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20221120/xxx.77w2doj2t9fk.png
-  banner_img_height: 60
-  banner_mask_alpha: 0.3
+#  banner_img_height: 60
+#  banner_mask_alpha: 0.3
+  banner_img_height: 70
+  banner_mask_alpha: 0
 
 
 #---------------------------
@@ -913,8 +915,10 @@ archive:
 category:
   enable: true
   banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20221120/xxx.77w2doj2t9fk.png
-  banner_img_height: 60
-  banner_mask_alpha: 0.3
+#  banner_img_height: 60
+#  banner_mask_alpha: 0.3
+  banner_img_height: 70
+  banner_mask_alpha: 0
 
   # 分类的排序字段，前面带减号是倒序，不带减号是正序
   # Sort field for categories, with a minus sign is reverse order
@@ -942,8 +946,10 @@ category:
 tag:
   enable: true
   banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20221120/xxx.vkhkepfoh8g.png
-  banner_img_height: 80
-  banner_mask_alpha: 0.3
+#  banner_img_height: 80
+#  banner_mask_alpha: 0.3
+  banner_img_height: 70
+  banner_mask_alpha: 0
   tagcloud:
     min_font: 15
     max_font: 30
@@ -959,8 +965,10 @@ tag:
 about:
   enable: true
   banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20221120/xxx.vkhkepfoh8g.png
-  banner_img_height: 60
-  banner_mask_alpha: 0.3
+#  banner_img_height: 60
+#  banner_mask_alpha: 0.3
+  banner_img_height: 70
+  banner_mask_alpha: 0
 #  avatar: /img/avatar.png
   avatar: https://q.qlogo.cn/g?b=qq&nk=2068467423&s=640
   name: "Miseryset"
