@@ -901,7 +901,7 @@ giscus:
 # Archive Page
 #---------------------------
 archive:
-  banner_img: /img/default.png
+  banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20221120/xxx.77w2doj2t9fk.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -912,7 +912,7 @@ archive:
 #---------------------------
 category:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20221120/xxx.77w2doj2t9fk.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
 
@@ -941,7 +941,7 @@ category:
 #---------------------------
 tag:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20221120/xxx.vkhkepfoh8g.png
   banner_img_height: 80
   banner_mask_alpha: 0.3
   tagcloud:
@@ -958,7 +958,7 @@ tag:
 #---------------------------
 about:
   enable: true
-  banner_img: /img/default.png
+  banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20221120/xxx.vkhkepfoh8g.png
   banner_img_height: 60
   banner_mask_alpha: 0.3
 #  avatar: /img/avatar.png
