@@ -6,7 +6,7 @@ on:
       - hexo
 
 jobs:
-  build&deploy:
+  Build_And_Deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
