@@ -12,7 +12,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
         with:
-          token: ${{ secrets.hexo_build_get_personal_repo }}
+          token: ${{ secrets.HEXO_BUILD_GET_PERSONAL_REPO }}
           submodules: 'true'
 
       - name: Setup Node
