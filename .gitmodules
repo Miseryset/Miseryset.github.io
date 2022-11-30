@@ -1,0 +1,3 @@
+[submodule "source/_posts/SecretPostForHexo"]
+	path = source/_posts/SecretPostForHexo
+	url = git@github.com:Miseryset/SecretPostForHexo.git
