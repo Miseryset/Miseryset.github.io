@@ -1,5 +1,5 @@
 /*首页文章标题 发布时间 标签（不含标签页） 页脚hexo和fluid渐变*/
-h1>a,div>time,div[class*="post-meta"]>a[href^="/tags"],div>a>span {
+h1>a,div>time,div[class*="post-meta"]>a[href^="/tags"],div[class*="footer-content"]>a>span {
     background: linear-gradient(-45deg, #ffa6a6, #a6cbff);
     background-size: 100% 100%;
     -webkit-background-clip: text;
