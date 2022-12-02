@@ -105,14 +105,14 @@ fun_features:
   # 为文章内容中的标题添加锚图标
   # Add an anchor icon to the title on the post page
   anchorjs:
-    enable: false
+    enable: true
     element: h1,h2,h3,h4,h5,h6
     # Options: left | right
     placement: left
     # Options: hover | always | touch
-    visible: hover
+    visible: always
     # Options: § | # | ❡
-    icon: ""
+    icon: " ☆"
 
   # 加载进度条
   # Progress bar when loading
