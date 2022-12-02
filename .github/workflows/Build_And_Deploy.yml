@@ -4,6 +4,9 @@ on:
   push:
     branches:
       - hexo
+  repository_dispatch:
+    types:
+      - SecretPostTrigger
 
 jobs:
   Build_And_Deploy:
