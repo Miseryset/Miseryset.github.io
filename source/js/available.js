@@ -1,5 +1,6 @@
 (function() {
-    if (document.getElementById('hbePass')) {
+    var encrypted = document.getElementsByClassName('hbe-container')
+    if (encrypted.length != 0) {
         return;
     }
     var times = document.getElementsByTagName('time');
