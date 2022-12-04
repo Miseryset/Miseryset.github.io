@@ -1,4 +1,7 @@
 (function() {
+    if (document.getElementById('hbePass')) {
+        return;
+    }
     var times = document.getElementsByTagName('time');
     if (times.length === 0) {
         return;
@@ -13,7 +16,7 @@
     var interval = parseInt(now - pubTime)
 
     /* 发布时间超过指定时间（毫秒） */
-    if (interval > 3600 * 24 * 7 * 1000) {
+    if (interval > 3600 * 24 * 1 * 1000) {
         var days = parseInt(interval / 86400000)
         /*
         posts[0].innerHTML = '<div class="note note-warning" style="font-size:0.9rem"><p>' +
@@ -24,9 +27,11 @@
             '这是一篇发布于 ' + days + ' 天前的文章，部分信息可能已发生改变，请注意甄别。' +
             '</p></div>' + posts[0].innerHTML;
     }
+
     posts[0].innerHTML = '<div class="note note-info" style="font-size:0.9rem"><p>' +
         '本文写于： ' + fmt(pubTime) +
         '</p></div>' + posts[0].innerHTML;
+
 })();
 
 function fmt(aaa) {
