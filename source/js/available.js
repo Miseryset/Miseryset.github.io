@@ -1,8 +1,10 @@
 (function() {
+
     var encrypted = document.getElementsByClassName('hbe-container')
     if (encrypted.length != 0) {
         return;
     }
+
     var times = document.getElementsByTagName('time');
     if (times.length === 0) {
         return;
@@ -17,7 +19,7 @@
     var interval = parseInt(now - pubTime)
 
     /* 发布时间超过指定时间（毫秒） */
-    if (interval > 3600 * 24 * 1 * 1000) {
+    if (interval > 3600 * 24 * 15 * 1000) {
         var days = parseInt(interval / 86400000)
         /*
         posts[0].innerHTML = '<div class="note note-warning" style="font-size:0.9rem"><p>' +
