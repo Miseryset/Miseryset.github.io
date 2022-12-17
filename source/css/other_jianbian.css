@@ -13,8 +13,16 @@ div>i,div>a>i {
     -webkit-text-fill-color: transparent;
 }
 
-/*文章页信息渐变*/
-div>span {
+/*文章页信息渐变。“分类渐变”*/
+div>span[class*="post-meta"],span[class*="category-chain"] {
+    background: linear-gradient(-45deg, #ff96bd ,#96b8ff);
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*页脚运行时间*/
+#runspan {
     background: linear-gradient(-45deg, #ff96bd ,#96b8ff);
     background-size: 100% 100%;
     -webkit-background-clip: text;
