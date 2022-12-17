@@ -1,6 +1,6 @@
 /* 打字机效果渐变 -bynote.cn  Changed by Miseryset*/
 #subtitle {
-    background: linear-gradient(-45deg, #F85E61, #AB5EF8, #5EF88F, #F8965E);
+    background: linear-gradient(-45deg, #F39292, #E2A0C5, #A9A5EB, #A5E5EB);
     background-size: 300% 300%;
     -webkit-animation: zi 15s infinite both linear;
     -moz-animation: zi 15s infinite both linear;
