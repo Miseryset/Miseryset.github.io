@@ -173,7 +173,8 @@ color:
   # Color of main board
   # board_color: "#fff"
   # board_color: "#fcedf6"
-  board_color: "rgba(255,252,240,0.6)"
+  # board_color: "rgba(255,252,240,0.6)"
+  board_color: "rgba(255,255,255,0.75)"
   board_color_dark: "#252d38"
 
   # 文章正文字体色
