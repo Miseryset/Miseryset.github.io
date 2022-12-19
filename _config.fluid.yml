@@ -478,6 +478,10 @@ index:
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
   banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20220125/70e084dd5c1b6407.6qlkr1l6i8hs.webp
 
+  # 首页 Banner 使用随机视频
+  # true 开启  false 关闭
+  banner_video: true
+  
   # 头图高度，屏幕百分比
   # Height ratio of banner image
   # Available: 0 - 100
