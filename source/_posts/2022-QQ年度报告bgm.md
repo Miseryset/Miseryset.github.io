@@ -3,7 +3,7 @@ title: 2022_QQ年度报告bgm
 author: Miseryset
 hide: false
 date: 2022-12-21 00:55:39
-updated: 2022-12-21 08:06:39
+updated: 2022-12-23 06:56:39
 tags:
 index_img:
 banner_img:
@@ -12,7 +12,7 @@ banner_img:
 &emsp;&emsp;当我第一次听到这些bgm，感觉还不错
 ***
 <!-- more -->
-- 首页bgm
+#### 首页bgm
 
 &emsp;&emsp;QQ的链接：
 
@@ -28,16 +28,141 @@ banner_img:
 
 ***
 
-- 末尾分享后的bgm
+#### 末尾分享后的bgm
+
+&emsp;&emsp;据说每一款都不一样，我个人是并不知道的，多谢酷友 [@好滴名字都被占了](http://www.coolapk.com/u/20690350) 提供的HAPPY4，然后我顺着命名规则，找到了不少，来感受一下
+
+***
+
+##### young1
+&emsp;&emsp;欢快的
 
 &emsp;&emsp;QQ的链接：
 
 <audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
-  <source src="https://092162d3da86230a2734a97587ec5324.dlied1.cdntips.net/dlied1.qq.com/qqweb/young1.mp3" type="audio/mpeg">
+  <source src="https://down.qq.com/qqweb/young1.mp3" type="audio/mpeg">
 </audio>
 
 &emsp;&emsp;镜像链接：
 
 <audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
   <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/young1.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### young2
+&emsp;&emsp;优雅的
+
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/young2.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/young2.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### young3
+&emsp;&emsp;节奏的，这个太酷了
+
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/young3.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/young3.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### HAPPY1
+&emsp;&emsp;旋律的
+
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/HAPPY1.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/HAPPY1.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### HAPPY2
+&emsp;&emsp;闲适的
+
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/HAPPY2.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/HAPPY2.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### HAPPY3
+
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/HAPPY3.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/HAPPY3.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### HAPPY4
+&emsp;&emsp;我想这个做铃声一定不错
+
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/HAPPY4.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/HAPPY4.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### HAPPY5
+&emsp;&emsp;爱心爆棚的
+
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/HAPPY5.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/HAPPY5.mp3" type="audio/mpeg">
 </audio>
