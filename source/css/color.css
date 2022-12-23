@@ -1,3 +1,10 @@
 .tocbot-link {
     color: #ffa3c9;
 }
+
+p[class*="toc-header"] {
+    background: #ffa3c9;
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
