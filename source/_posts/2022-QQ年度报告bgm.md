@@ -3,7 +3,7 @@ title: 2022_QQ年度报告bgm
 author: Miseryset
 hide: false
 date: 2022-12-21 00:55:39
-updated: 2022-12-23 08:04:39
+updated: 2022-12-23 16:11:39
 tags:
 index_img:
 banner_img:
@@ -250,3 +250,137 @@ banner_img:
   <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/ACG5.mp3" type="audio/mpeg">
 </audio>
 
+***
+
+##### QQEMO1
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/QQEMO1.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/QQEMO1.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### QQEMO2
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/QQEMO2.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/QQEMO2.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### QQEMO3
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/QQEMO3.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/QQEMO3.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### QQEMO4
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/QQEMO4.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/QQEMO4.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### QQEMO5
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/QQEMO5.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/QQEMO5.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### POP1
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/POP1.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/POP1.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### POP2
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/POP2.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/POP2.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### POP3
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/POP3.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/POP3.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### POP4
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/POP4.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/POP4.mp3" type="audio/mpeg">
+</audio>
