@@ -3,7 +3,7 @@ title: 2022_QQ年度报告bgm
 author: Miseryset
 hide: false
 date: 2022-12-21 00:55:39
-updated: 2022-12-23 06:56:39
+updated: 2022-12-23 08:04:39
 tags:
 index_img:
 banner_img:
@@ -166,3 +166,87 @@ banner_img:
 <audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
   <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/HAPPY5.mp3" type="audio/mpeg">
 </audio>
+
+***
+
+##### ACG1
+&emsp;&emsp;2022通关了
+
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/ACG1.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/ACG1.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### ACG2
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/ACG2.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/ACG2.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### ACG3
+&emsp;&emsp;节奏的
+
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/ACG3.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/ACG3.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### ACG4
+&emsp;&emsp;节奏的，跑起来
+
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/ACG4.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/ACG4.mp3" type="audio/mpeg">
+</audio>
+
+***
+
+##### ACG5
+&emsp;&emsp;抒情的
+
+&emsp;&emsp;QQ的链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://down.qq.com/qqweb/ACG5.mp3" type="audio/mpeg">
+</audio>
+
+&emsp;&emsp;镜像链接：
+
+<audio controls preload="metadata" style="clear:both;display:block;margin:3px auto">
+  <source src="https://gcore.jsdelivr.net/gh/Miseryset/RawFile@main/music/ACG5.mp3" type="audio/mpeg">
+</audio>
+
