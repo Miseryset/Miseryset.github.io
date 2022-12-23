@@ -245,6 +245,7 @@ custom_js:
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css:
+- /css/color.css
 - /css/other_jianbian.css #其他渐变
 - /css/jianbian.css #打字机效果渐变动画
 - /css/maccode.css #mac样式高亮代码
