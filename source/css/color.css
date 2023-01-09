@@ -13,5 +13,5 @@ p[class*="toc-header"] {
     color: #D67086;
 }
 .list-group-item>.active {
-    color: #D67086;
+    background-color: #D67086;
 }
