@@ -9,7 +9,7 @@ p[class*="toc-header"] {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.category-item-action:hover {
+.category-item-action,.list-group-item-action {
     color: #ffa3c9;
     background-color: #ffa3c9;
 }
