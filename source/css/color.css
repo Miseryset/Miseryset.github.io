@@ -9,9 +9,9 @@ p[class*="toc-header"] {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.category-item-action,.list-group-item-action {
-    color: #ffa3c9;
-}
 .list-group-item {
+    color: #D67086;
+}
+.list-group-item>.active {
     color: #D67086;
 }
