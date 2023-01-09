@@ -9,9 +9,7 @@ p[class*="toc-header"] {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+/*侧边分类导航*/
 .list-group-item {
     color: #D67086;
-}
-.list-group-item>.active {
-    background-color: #D67086;
 }
