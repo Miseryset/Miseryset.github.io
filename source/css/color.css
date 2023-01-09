@@ -12,3 +12,6 @@ p[class*="toc-header"] {
 .category-item-action,.list-group-item-action {
     color: #ffa3c9;
 }
+.list-group-item {
+    color: #D67086;
+}
