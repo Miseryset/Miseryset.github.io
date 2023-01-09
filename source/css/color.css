@@ -9,7 +9,7 @@ p[class*="toc-header"] {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.category-bar {
+.category-item-action:hover {
     color: #ffa3c9;
     background-color: #ffa3c9;
 }
