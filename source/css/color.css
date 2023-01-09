@@ -9,6 +9,7 @@ p[class*="toc-header"] {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.list-group-item>active {
+.category-bar {
     color: #ffa3c9;
+    background-color: #ffa3c9;
 }
