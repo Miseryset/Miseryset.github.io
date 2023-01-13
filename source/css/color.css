@@ -10,6 +10,6 @@ p[class*="toc-header"] {
     -webkit-text-fill-color: transparent;
 }
 /*侧边分类导航*/
-aside[class*="category-bar"]>div>div>div>div>a>span,adide[class*="category-bar"]>div>div>a {
+aside[class*="category-bar"]>div>div>div>div>a>span,aside[class*="category-bar"]>div>div>a {
     color: #D67086;
 }
