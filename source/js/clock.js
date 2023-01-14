@@ -167,11 +167,11 @@
       for (var i = 0; i < digit[num].length; i++) {
         for (var j = 0; j < digit[num][i].length; j++) {
           if (digit[num][i][j] == 1) {
+            cxt.fillStyle = '#ffa3c9';
             cxt.beginPath();
             cxt.arc(14 * (R + 2) * index + j * 2 * (R + 1) + (R + 1), i * 2 * (R + 1) + (R + 1), R, 0, 2 * Math.PI);
             cxt.closePath();
             cxt.fill();
-            cxt.fillStyle = '#ffa3c9';
           }
         }
       }
