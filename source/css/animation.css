@@ -1,0 +1,14 @@
+/* 页脚动画 */
+[id^="ic_love"] {
+  -moz-animation:ic 10s linear infinite normal;
+  -webkit-animation:ic 10s linear infinite normal;
+  animation:ic 10s linear infinite normal;
+}
+@keyframes ic {
+  from {
+    transform:rotateY(0deg);
+  }
+  to {
+    transform:rotateY(360deg);
+  }
+}
