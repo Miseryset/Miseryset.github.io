@@ -163,7 +163,3 @@ encrypt:
   wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试
   wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容
   
-# 粒子时钟
-diy_clock:
-  clock: true # 为 true 时开启粒子时钟，为 false 时关闭粒子时钟
-  runtime: true
