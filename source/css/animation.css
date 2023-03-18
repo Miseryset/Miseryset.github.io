@@ -1,8 +1,12 @@
 /* 页脚动画 */
 [id^="ic_love"] {
-  -moz-animation:ic 10s linear infinite normal;
-  -webkit-animation:ic 10s linear infinite normal;
-  animation:ic 10s linear infinite normal;
+  /*-moz-animation:ic 10s linear infinite normal;*/
+  /*-webkit-animation:ic 10s linear infinite normal;*/
+  /*animation:ic 10s linear infinite normal;*/
+  /**/
+  -moz-animation:beat 1.5s infinite;
+  -webkit-animation:beat 1.5s infinite;
+  animation:beat 1.5s infinite;
 }
 @keyframes ic {
   from {
@@ -11,4 +15,18 @@
   to {
     transform:rotateY(360deg);
   }
+}
+
+@keyframes beat {
+  from {transform: scale(1); }
+  12% {transform: scale(1.02); }
+  20% {transform: scale(0.99); }
+  28% {transform: scale(0.98); }
+  32% {transform: scale(1.2); }
+  38% {transform: scale(0.96); }
+  50% {transform: scale(1); }
+  58% {transform: scale(0.98); }
+  70% {transform: scale(0.9); }
+  80% {transform: scale(0.98); }
+  to {transform: scale(1); }
 }
