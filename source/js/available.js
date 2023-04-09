@@ -41,15 +41,15 @@ function fmt(aaa) {
     //datetime是拿到的时间戳
     var date = aaa //时间戳为10位需*1000，时间戳为13位的话不需乘1000 
     var year = date.getFullYear(),
-        month = ("0" + (date.getMonth() + 1))
+        month = ("" + (date.getMonth() + 1))
             .slice(-2),
-        sdate = ("0" + date.getDate())
+        sdate = ("" + date.getDate())
             .slice(-2),
-        hour = ("0" + date.getHours())
+        hour = ("" + date.getHours())
             .slice(-2),
-        minute = ("0" + date.getMinutes())
+        minute = ("" + date.getMinutes())
             .slice(-2),
-        second = ("0" + date.getSeconds())
+        second = ("" + date.getSeconds())
             .slice(-2);
     var ap;
     if (hour >= 0 && hour < 6) {
