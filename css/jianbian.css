@@ -1,0 +1,34 @@
+/* 打字机效果渐变 -bynote.cn  Changed by Miseryset*/
+#subtitle {
+    background: linear-gradient(-45deg, #F39292, #E2A0C5, #A9A5EB, #A5E5EB);
+    background-size: 300% 300%;
+    -webkit-animation: zi 15s infinite both linear;
+    -moz-animation: zi 15s infinite both linear;
+    animation: zi 15s infinite both linear;
+    -o-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+@keyframes zi{
+    0%{
+    	background-position: 300% 300%;
+    }
+    33%{
+    	background-position: 0% 300%;
+    }
+    66%{
+    	background-position: 300% 0%;
+    }
+    100%{
+    	background-position: 300% 300%;
+    }
+}
+#subtitle:before {
+    background-color: rgba(0, 0, 0, 0);
+}
