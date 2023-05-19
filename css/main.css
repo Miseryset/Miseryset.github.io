@@ -563,10 +563,10 @@ sup > a::before,
 }
 #nprogress .bar {
   height: 3px !important;
-  background-color: #ffa3c9 !important;
+  background-color: #a7a4db !important;
 }
 #nprogress .peg {
-  box-shadow: 0 0 14px #ffa3c9, 0 0 8px #ffa3c9 !important;
+  box-shadow: 0 0 14px #a7a4db, 0 0 8px #a7a4db !important;
 }
 @media (max-width: 575px) {
   #nprogress .bar {
@@ -840,14 +840,14 @@ i.iconfont {
   --sec-text-color: #718096;
   --post-text-color: #2c3e50;
   --post-heading-color: #1a202c;
-  --post-link-color: #ffa3c9;
+  --post-link-color: #a7a4db;
   --link-hover-color: #30a9de;
   --link-hover-bg-color: #f8f9fa;
-  --line-color: #ffa3c9;
+  --line-color: #a7a4db;
   --navbar-bg-color: rgba(255,255,255,0.75);
-  --navbar-text-color: #ffa3c9;
+  --navbar-text-color: #a7a4db;
   --subtitle-color: #fff;
-  --scrollbar-color: #ffa3c9;
+  --scrollbar-color: #a7a4db;
   --scrollbar-hover-color: #ffebeb;
   --button-bg-color: transparent;
   --button-hover-bg-color: #f2f3f5;
@@ -865,14 +865,14 @@ i.iconfont {
     --sec-text-color: #a7a9ad;
     --post-text-color: #c4c6c9;
     --post-heading-color: #c4c6c9;
-    --post-link-color: #ffa3c9;
+    --post-link-color: #a7a4db;
     --link-hover-color: #30a9de;
     --link-hover-bg-color: #364151;
-    --line-color: #ffa3c9;
+    --line-color: #a7a4db;
     --navbar-bg-color: #1f3144;
     --navbar-text-color: #e3e3e3;
     --subtitle-color: #ffffff;
-    --scrollbar-color: #ffa3c9;
+    --scrollbar-color: #a7a4db;
     --scrollbar-hover-color: #ffebeb;
     --button-bg-color: transparent;
     --button-hover-bg-color: #46647e;
@@ -900,14 +900,14 @@ i.iconfont {
   --sec-text-color: #a7a9ad;
   --post-text-color: #c4c6c9;
   --post-heading-color: #c4c6c9;
-  --post-link-color: #ffa3c9;
+  --post-link-color: #a7a4db;
   --link-hover-color: #30a9de;
   --link-hover-bg-color: #364151;
-  --line-color: #ffa3c9;
+  --line-color: #a7a4db;
   --navbar-bg-color: #1f3144;
   --navbar-text-color: #e3e3e3;
   --subtitle-color: #ffffff;
-  --scrollbar-color: #ffa3c9;
+  --scrollbar-color: #a7a4db;
   --scrollbar-hover-color: #ffebeb;
   --button-bg-color: transparent;
   --button-hover-bg-color: #46647e;
