@@ -10,7 +10,10 @@
 # You can get more detailed help from the guide
 #---------------------------
 
-
+# 是否开启页面加载动画
+preloader:
+  enable: true
+  
 #---------------------------
 # 全局
 # Global
@@ -245,6 +248,7 @@ custom_js:
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css:
+- /css/loading.css
 - /css/footer_icon_animation.css
 - /css/color.css
 - /css/gradient_other.css #其他渐变
