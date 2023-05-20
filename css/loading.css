@@ -4,7 +4,7 @@
   z-index: 1000;
   width: 50%;
   height: 100%;
-  background-color: #a7a4db;
+  background-color: var(--global-main-color);
   transition: all 0.5s;
 }
 

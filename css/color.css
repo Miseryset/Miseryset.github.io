@@ -1,15 +1,15 @@
 /*目录*/
 .tocbot-link {
-    color: #a7a4db;
+    color: var(--global-main-color);
 }
 /*目录头*/
 p[class*="toc-header"] {
-    background: #a7a4db;
+    background: var(--global-main-color);
     background-size: 100% 100%;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 /*侧边分类导航*/
 aside[class*="category-bar"]>div>div>div>div>a>span,aside[class*="category-bar"]>div>div>a {
-    color: #a7a4db;
+    color: var(--global-main-color);
 }
