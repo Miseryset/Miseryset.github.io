@@ -30,7 +30,6 @@ code_dir: downloads/code
 i18n_dir: :lang
 skip_render:
   - "vvd_js/*"
-  - "css/*"
   - "js/*"
 
 # Writing
