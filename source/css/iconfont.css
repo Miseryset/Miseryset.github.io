@@ -1,0 +1,21 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4078725 */
+  src: url('iconfont.ttf?t=1684655772389') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-magisk:before {
+  content: "\ec01";
+}
+
+.icon-shoucang:before {
+  content: "\e626";
+}
+

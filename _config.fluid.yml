@@ -248,6 +248,7 @@ custom_js:
 # 指定自定义 .css 文件路径，用法和 custom_js 相同
 # The usage is the same as custom_js
 custom_css:
+- /css/iconfont.css
 - /css/loading.css
 - /css/footer_icon_animation.css
 - /css/color.css
@@ -364,6 +365,7 @@ navbar:
   # 导航栏菜单，可自行增减，key 用来关联 languages/*.yml，如不存在关联则显示 key 本身的值；icon 是 css class，可以省略；增加 name 可以强制显示指定名称
   # Navigation bar menu. `key` is used to associate languages/*.yml. If there is no association, the value of `key` itself will be displayed; if `icon` is a css class, it can be omitted; adding `name` can force the display of the specified name
   menu:
+    - { key: "收藏", link: "/collection/", icon: "iconfont icon-shoucang" }
     - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
     - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "category", link: "/categories/", icon: "iconfont icon-category-fill" }
@@ -1014,9 +1016,11 @@ about:
 # Custom Page through `hexo new page`
 #---------------------------
 page:
-  banner_img: /img/default.png
-  banner_img_height: 60
-  banner_mask_alpha: 0.3
+  # banner_img: /img/default.png
+  # banner_img_height: 60
+  # banner_mask_alpha: 0.3
+  banner_img_height: 70
+  banner_mask_alpha: 0
 
 
 #---------------------------
