@@ -1,3 +1,10 @@
+
+li>a {
+  color: var(--main-c);
+}
+li.active>a {
+  color: #fff;
+}
 /* 胶囊导航改变样式*/
 .nav-pills>li.active,
 .nav-pills>li.active:focus,

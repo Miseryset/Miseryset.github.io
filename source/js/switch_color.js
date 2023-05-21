@@ -1,4 +1,3 @@
-document.write('<link type="text/css" rel="stylesheet" href="/css/global.css" />');
 // var d = new Date();
 // var h = d.getHours();
 // if (h > 8 && h < 18) {

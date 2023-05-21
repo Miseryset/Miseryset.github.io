@@ -10,6 +10,8 @@ banner_mask_alpha: 0
 <div class="container tool-nav">
   <ul class="nav nav-pills">
     <li role="presentation" class="active"><a href="#">Magisk</a></li>
+    <li role="presentation"><a href="lsposed.html">Xposed</a></li>
+    <li role="presentation"><a href="software.html">软件</a></li>
   </ul>
 </div>
 <!-- <div class="container"> -->
@@ -33,7 +35,7 @@ banner_mask_alpha: 0
         Shamiko
       </div>
       <div class="text-center text-color-height">
-        隐藏Zygisk
+        不要以为这样就赢了
       </div>
     </div>
     <div class="col-md-4 col-xs-12 col-sm-6 tool-li"><a href="https://github.com/LSPosed/LSPosed" target="_blank">
