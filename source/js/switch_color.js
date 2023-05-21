@@ -8,8 +8,12 @@ document.write('<link type="text/css" rel="stylesheet" href="/css/global.css" />
   // document.documentElement.style.setProperty('--global-main-color', "#a7a4db");
   // // document.write('<link type="text/css" rel="stylesheet" href="/css/global_c2.css" />');
 // }
-var r=Math.round(Math.random()*255);
-var g=Math.round(Math.random()*255);
-var b=Math.round(Math.random()*255);
-
-document.documentElement.style.setProperty('--global-main-color', "rgb("+r+","+g+","+b+")");
+function rr(){
+  r_num=Math.round(Math.random()*255);
+  return r_num;
+}
+var r=rr();
+var g=rr();
+var b=rr();
+var rc="rgb("+r+","+g+","+b+")"
+document.documentElement.style.setProperty('--global-main-color', rc);
