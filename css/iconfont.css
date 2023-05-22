@@ -1,6 +1,6 @@
 @font-face {
   font-family: "iconfont"; /* Project id 4078725 */
-  src: url('iconfont.ttf?t=1684662171949') format('truetype');
+  src: url('iconfont.ttf?t=1684730750248') format('truetype');
 }
 
 .iconfont {
@@ -11,8 +11,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-shoucang1:before {
-  content: "\e8c6";
+.icon-shoucang:before {
+  content: "\e86d";
+}
+
+.icon-android:before {
+  content: "\ebec";
 }
 
 .icon-magisk:before {
