@@ -15,16 +15,17 @@ banner_mask_alpha: 0
   </ul>
 </div>
 
-<div class="row text-center">
-  <div class="col-md-4 col-xs-12 col-sm-6 tool-li"><a href="https://github.com/kooritea/ForceGboardInputType" target="_blank">
-    <div class="tool-li-li li-bgc-40">
-      <i class="iconfont icon-android"></i>
-    </div> </a>
-  <div class="text-center" style="margin-top:10px">
-    强制修改Gboard输入类型
-  </div>
-  <div class="text-center text-color-height">
-    强制修改Gboard输入类型
+<div class="container-fluid">
+  <div class="row text-center">
+    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 tool-li"><a href="https://github.com/kooritea/ForceGboardInputType" target="_blank">
+      <div class="tool-li-li li-bgc-40">
+        <i class="iconfont icon-android"></i>
+      </div> </a>
+    <div class="text-center" style="margin-top:10px">
+      强制修改Gboard输入类型
+    </div>
+    <div class="text-center text-color-height">
+      强制修改Gboard输入类型
+    </div>
   </div>
 </div>
-
