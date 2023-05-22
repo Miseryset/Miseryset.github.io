@@ -1,4 +1,6 @@
-
+.container-fluid {
+  padding-bottom:1.5rem;
+}
 li>a {
   color: var(--main-c);
 }
@@ -23,10 +25,9 @@ li.active>a {
   border-radius: 10px;
 }
 /* 工具明细分类样式*/
-
 .tool-li {
   height:100px;
-  margin:3rem;
+  margin:2.5rem;
   padding-right:1.5rem;
   padding-left:1.5rem;
   margin-right:auto;
@@ -39,16 +40,17 @@ li.active>a {
 }
 .tool-li .tool-li-li i {
   line-height: 100px;
-  font-size:4rem;
+  font-size:3rem;
   color:#f7f7f7;
 }
 .tool-li .text-color-height {
   color:#777;
-  height:5rem;
+  /*height:5rem;*/
   font-size:12px;
+  margin-bottom: 5px;
 }
 /* 设置工具明细中鼠标滑动效果*/
-  .tool-li-li:hover {
+.tool-li-li:hover {
   position: relative;
   top: -1px;
   box-shadow: 0 10px 10px #ddd;
