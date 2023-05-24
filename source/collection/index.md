@@ -14,39 +14,41 @@ banner_mask_alpha: 0
     <li role="presentation"><a href="software.html">软件</a></li>
   </ul>
 </div>
-<div class="container-fluid" >
-  <div class="row text-center">
-    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 tool-li"><a href="https://github.com/topjohnwu/Magisk" target="_blank">
-      <div class="tool-li-li li-bgc-11">
-        <i class="iconfont icon-magisk"></i>
-      </div> </a>
-      <div class="text-center" style="margin-top:10px">
-        Magisk
-      </div>
-      <div class="text-center text-color-height">
-        那个属于我们的时代终究会一去不复返
-      </div>
-    </div>
-    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 tool-li"><a href="https://github.com/LSPosed/LSPosed.github.io/releases" target="_blank">
-      <div class="tool-li-li li-bgc-12">
-        <i class="iconfont icon-magisk"></i>
-      </div> </a>
-      <div class="text-center" style="margin-top:10px">
-        Shamiko
-      </div>
-      <div class="text-center text-color-height">
-        不要以为这样就赢了
-      </div>
-    </div>
-    <div class="col-xs-6 col-sm-6 col-md-4 col-lg-4 tool-li"><a href="https://github.com/LSPosed/LSPosed" target="_blank">
-      <div class="tool-li-li li-bgc-13">
-        <i class="iconfont icon-magisk"></i>
-      </div> </a>
-      <div class="text-center" style="margin-top:10px">
-        LSPosed
-      </div>
-      <div class="text-center text-color-height">
-        不要忘记rovo89
-      </div>
-    </div>
-</div>
+
+<div id="showme"></div>
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.6.2.js"></script>
+<script>
+$(document).ready(function(){
+  $.getJSON('/collection/res/index.json', function(data){
+    if (true){
+      var count = data.length;
+      var show = "<div class=\"container-fluid\">";
+      for (var i=0 ; i < count ;i++){
+        index_link = data[i][0];
+        index_title = data[i][1];
+        index_description = data[i][2];
+        index_bgnum = data[i][3];
+        index_icon = data[i][4];
+        show += "<div class=\"row text-center\">";
+        show += "<div class=\"col-xs-6 col-sm-6 col-md-4 col-lg-4 tool-li\">";
+        show += "<a href=\"" + index_link + "\" target=\"_blank\">";
+        show += "<div class=\"tool-li-li " + "li-bgc-" + index_bgnum + "\">";
+        show += "<i class=\"iconfont " + index_icon + "\"></i>";
+        show += "</div>";
+        show += "</a>";
+        show += "<div class=\"text-center\" style=\"margin-top:10px\">";
+        show += index_title;
+        show += "</div>";
+        show += "<div class=\"text-center text-color-height\">";
+        show += index_description;
+        show += "</div>";
+        show += "</div>";
+        show += "</div>";
+      }
+      show += "</div>";
+      $("#showme").html(show);
+    }
+  });
+});
+</script>
