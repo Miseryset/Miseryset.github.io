@@ -59,7 +59,7 @@ li.active>a {
 .tool-li-li:hover i {
   /* 首先，图标的实现是:before伪元素控制的 :before伪元素默认是行内元素（即display: inline） 行内元素旋转无效，所以需要给.rotate:before伪元素加上display: inline-block，使其变为行内块元素。*/
   display: inline-block;
-  font-size:5rem;
+  font-size:3.5rem;
   color:#fff;
   transform: rotate(25deg);
   transition: 0.3s;
