@@ -24,13 +24,13 @@ $(document).ready(function(){
     if (true){
       var count = data.length;
       var show = "<div class=\"container-fluid\">";
+      show += "<div class=\"row text-center\">";
       for (var i=0 ; i < count ;i++){
         index_link = data[i][0];
         index_title = data[i][1];
         index_description = data[i][2];
         index_bgnum = data[i][3];
         index_icon = data[i][4];
-        show += "<div class=\"row text-center\">";
         show += "<div class=\"col-xs-6 col-sm-6 col-md-4 col-lg-4 tool-li\">";
         show += "<a href=\"" + index_link + "\" target=\"_blank\">";
         show += "<div class=\"tool-li-li " + "li-bgc-" + index_bgnum + "\">";
@@ -44,8 +44,8 @@ $(document).ready(function(){
         show += index_description;
         show += "</div>";
         show += "</div>";
-        show += "</div>";
       }
+      show += "</div>";
       show += "</div>";
       $("#showme").html(show);
     }
