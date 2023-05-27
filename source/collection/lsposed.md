@@ -33,9 +33,15 @@ $(document).ready(function(){
         index_icon = data[i][4];
         show += "<div class=\"col-xs-6 col-sm-6 col-md-4 col-lg-4 tool-li\">";
         show += "<a href=\"" + index_link + "\" target=\"_blank\">";
-        show += "<div class=\"tool-li-li " + "li-bgc-" + index_bgnum + "\">";
-        show += "<i class=\"iconfont " + index_icon + "\"></i>";
-        show += "</div>";
+        if (typeof index_icon === 'string' && index_icon.startsWith('icon-')) {
+          show += "<div class=\"tool-li-li " + "li-bgc-" + index_bgnum + "\">";
+          show += "<i class=\"iconfont " + index_icon + "\"></i>";
+          show += "</div>";
+        }else {
+          show += "<div class=\"tool-li-li " + "li-bgc-" + index_bgnum + "\"  style=\"display: flex;align-items: center;justify-content: center;\">";
+          show += "<img src=\"" + index_icon + "\" style=\"max-height:40%;\"/>";
+          show += "</div>";
+        }
         show += "</a>";
         show += "<div class=\"text-center\" style=\"margin-top:10px\">";
         show += index_title;
