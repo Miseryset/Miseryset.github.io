@@ -4,5 +4,8 @@
   ["https://github.com/j-hc/revanced-magisk-module","youtube","re-vanced","50","icon-Youtube"],
   ["https://github.com/MetaCubeX/Clash.Meta","Clash.Meta","Clash.Meta","37","https://raw.githubusercontent.com/MetaCubeX/Clash.Meta/Meta/Meta.png"],
   ["https://github.com/Mygod/VPNHotspot","vpn热点","将vpn网络共享给热点","20","icon-android"],
-  ["https://github.com/WSTxda/QP-Gallery-Releases","快图浏览","轻量且强大","https://raw.githubusercontent.com/WSTxda/QP-Gallery-Releases/master/Images/Banner.svg","icon-android"]
+  ["https://github.com/WSTxda/QP-Gallery-Releases","快图浏览","轻量且强大","https://raw.githubusercontent.com/WSTxda/QP-Gallery-Releases/master/Images/Banner.svg","icon-android"],
+  ["https://github.com/XayahSuSuSu/Android-DataBackup","数据备份","root，真·换机助手","36","icon-android"],
+  ["https://f-droid.org/zh_Hans/packages/com.termux/","termux","termux","35","icon-android"],
+  ["https://github.com/gsantner/markor","markor","markor","34","icon-android"]
 ]
