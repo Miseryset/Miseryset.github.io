@@ -33,15 +33,31 @@ $(document).ready(function(){
         index_icon = data[i][4];
         show += "<div class=\"col-xs-6 col-sm-6 col-md-4 col-lg-4 tool-li\">";
         show += "<a href=\"" + index_link + "\" target=\"_blank\">";
-        if (typeof index_icon === 'string' && index_icon.startsWith('icon-')) {
-          show += "<div class=\"tool-li-li " + "li-bgc-" + index_bgnum + "\">";
-          show += "<i class=\"iconfont " + index_icon + "\"></i>";
-          show += "</div>";
+        
+        if (typeof index_bgnum === 'string' && index_bgnum.startsWith('http')) {
+          if (typeof index_icon === 'string' && index_icon.startsWith('icon-')) {
+            show += "<div class=\"tool-li-li \" style=\"overflow :hidden;display: flex;align-items: center;justify-content: center;position: relative;\">";
+            show += "<img src=\"" + index_bgnum + "\" style=\"width: 100%;height: 100%;object-fit :cover;position: absolute;z-index:1\"/>";
+            show += "<i class=\"iconfont " + index_icon + "\" style=\"position: absolute;z-index:2\"></i>";
+            show += "</div>";
+          }else {
+            show += "<div class=\"tool-li-li \" style=\"overflow :hidden;display: flex;align-items: center;justify-content: center;position: relative;\">";
+            show += "<img src=\"" + index_bgnum + "\" style=\"width: 100%;height: 100%;object-fit :cover;position: absolute;z-index:1\"/>";
+            show += "<img src=\"" + index_icon + "\" style=\"max-height:40%;max-width: 50%;object-fit :cover;position: absolute;z-index:2\"/>";
+            show += "</div>";
+          }
         }else {
-          show += "<div class=\"tool-li-li " + "li-bgc-" + index_bgnum + "\"  style=\"display: flex;align-items: center;justify-content: center;\">";
-          show += "<img src=\"" + index_icon + "\" style=\"max-height:40%;\"/>";
-          show += "</div>";
+          if (typeof index_icon === 'string' && index_icon.startsWith('icon-')) {
+            show += "<div class=\"tool-li-li " + "li-bgc-" + index_bgnum + "\">";
+            show += "<i class=\"iconfont " + index_icon + "\"></i>";
+            show += "</div>";
+          }else {
+            show += "<div class=\"tool-li-li " + "li-bgc-" + index_bgnum + "\"  style=\"display: flex;align-items: center;justify-content: center;\">";
+            show += "<img src=\"" + index_icon + "\" style=\"max-height:40%;max-width: 50%;\"/>";
+            show += "</div>";
+          }
         }
+        
         show += "</a>";
         show += "<div class=\"text-center\" style=\"margin-top:10px\">";
         show += index_title;
