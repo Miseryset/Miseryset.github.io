@@ -37,13 +37,13 @@ $(document).ready(function(){
         if (typeof index_bgnum === 'string' && index_bgnum.startsWith('http')) {
           if (typeof index_icon === 'string' && index_icon.startsWith('icon-')) {
             show += "<div class=\"tool-li-li \" style=\"overflow :hidden;display: flex;align-items: center;justify-content: center;position: relative;\">";
-            show += "<img src=\"" + index_bgnum + "\" style=\"width: 100%;height: 100%;object-fit :cover;position: absolute;z-index:1\"/>";
+            show += "<img src=\"" + index_bgnum + "\" style=\"width: 100%;height: 100%;object-fit :cover;position: absolute;z-index:1\" alt=\"E\"/>";
             show += "<i class=\"iconfont " + index_icon + "\" style=\"position: absolute;z-index:2\"></i>";
             show += "</div>";
           }else {
             show += "<div class=\"tool-li-li \" style=\"overflow :hidden;display: flex;align-items: center;justify-content: center;position: relative;\">";
-            show += "<img src=\"" + index_bgnum + "\" style=\"width: 100%;height: 100%;object-fit :cover;position: absolute;z-index:1\"/>";
-            show += "<img src=\"" + index_icon + "\" style=\"max-height:40%;max-width: 50%;object-fit :cover;position: absolute;z-index:2\"/>";
+            show += "<img src=\"" + index_bgnum + "\" style=\"width: 100%;height: 100%;object-fit :cover;position: absolute;z-index:1\" alt=\"E\"/>";
+            show += "<img src=\"" + index_icon + "\" style=\"max-height:40%;max-width: 50%;object-fit :cover;position: absolute;z-index:2\" alt=\"E\"/>";
             show += "</div>";
           }
         }else {
@@ -53,7 +53,7 @@ $(document).ready(function(){
             show += "</div>";
           }else {
             show += "<div class=\"tool-li-li " + "li-bgc-" + index_bgnum + "\"  style=\"display: flex;align-items: center;justify-content: center;\">";
-            show += "<img src=\"" + index_icon + "\" style=\"max-height:40%;max-width: 50%;\"/>";
+            show += "<img src=\"" + index_icon + "\" style=\"max-height:40%;max-width: 50%;\" alt=\"E\"/>";
             show += "</div>";
           }
         }
