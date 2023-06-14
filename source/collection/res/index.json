@@ -2,5 +2,10 @@
   ["https://github.com/topjohnwu/Magisk","Magisk","那个属于我们的时代终究会一去不复返","11","icon-magisk"],
   ["https://github.com/LSPosed/LSPosed.github.io/releases","Shamiko","不要以为这样就赢了","12","icon-magisk"],
   ["https://github.com/LSPosed/LSPosed","LSPosed","向 'rovo89' 致敬","13","icon-magisk"],
-  ["https://github.com/Magisk-Modules-Repo/busybox-ndk","Busybox","二进制小工具","14","icon-magisk"]
+  ["https://github.com/Magisk-Modules-Repo/busybox-ndk","Busybox","二进制小工具","14","icon-magisk"],
+  ["https://github.com/kdrag0n/safetynet-fix","Universal SafetyNet Fix","-","15","icon-magisk"],
+  ["https://github.com/Displax/safetynet-fix","Universal SafetyNet Fix","mod","16","icon-magisk"],
+  ["https://github.com/PaperStrike/safetynet-fix","Universal SafetyNet Fix","mod.mod","17","icon-magisk"],
+  ["https://github.com/oxy2ray/safetynet-fix","Universal SafetyNet Fix","mod.mod.mod","18","icon-magisk"]
+  
 ]
