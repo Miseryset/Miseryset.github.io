@@ -9,9 +9,9 @@ banner_mask_alpha: 0
 
 <div class="container tool-nav">
   <ul class="nav nav-pills">
-    <li role="presentation" class="active"><a href="#">Magisk</a></li>
-    <li role="presentation"><a href="lsposed.html">Xposed</a></li>
-    <li role="presentation"><a href="software.html">软件</a></li>
+    <a href="#" class="active"><li role="presentation">Magisk</li></a>
+    <a href="lsposed.html"><li role="presentation">Xposed</li></a>
+    <a href="software.html"><li role="presentation">软件</li></a>
   </ul>
 </div>
 

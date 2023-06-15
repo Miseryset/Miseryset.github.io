@@ -1,20 +1,19 @@
 .container-fluid {
   padding-bottom:1.5rem;
 }
-li>a {
+a>li {
   color: var(--main-c);
 }
-li.active>a {
+a.active>li {
   color: #fff;
 }
 /* 胶囊导航改变样式*/
-.nav-pills>li.active,
-.nav-pills>li.active:focus,
-.nav-pills>li.active:hover {
-  color: #fff;
+.nav-pills>a.active,
+.nav-pills>a.active:focus,
+.nav-pills>a.active:hover {
   background-color: var(--global-main-color);
 }
-.tool-nav ul li {
+.tool-nav ul a {
   padding:20px;
   padding-right:auto;
   padding-left:auto;
