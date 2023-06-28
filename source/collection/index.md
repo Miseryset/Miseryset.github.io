@@ -14,7 +14,11 @@ banner_mask_alpha: 0
     <a href="software.html"><li role="presentation">软件</li></a>
   </ul>
 </div>
-
+<div class="container tool-nav hidden-1">
+  <ul class="nav nav-pills">
+    <a href="hided/hided.html"><li role="presentation">隐藏</li></a>
+  </ul>
+</div>
 <div id="showme"></div>
 
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.2.js"></script>
@@ -72,5 +76,70 @@ $(document).ready(function(){
       $("#showme").html(show);
     }
   });
+});
+</script>
+
+<style>
+.hidden-1 {
+  display: none;
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  var hiddenText = document.querySelector('.hidden-1');
+
+  var touchStartX = null;
+  var touchEndX = null;
+  var touchStartY = null;
+  var touchEndY = null;
+  var swipeSequence = [];
+
+  document.addEventListener('touchstart', function(event) {
+    touchStartX = event.touches[0].clientX;
+    touchStartY = event.touches[0].clientY;
+  });
+
+  document.addEventListener('touchend', function(event) {
+    touchEndX = event.changedTouches[0].clientX;
+    touchEndY = event.changedTouches[0].clientY;
+    
+    var swipeDirection = getSwipeDirection();
+    
+    if (swipeDirection) {
+      swipeSequence.push(swipeDirection);
+      
+      // 检查滑动序列是否匹配指定的顺序
+      if (swipeSequence.join('') === 'uuddlrlr') {
+        hiddenText.style.display = 'block';
+        swipeSequence = []; // 重置滑动序列
+      }
+    } else {
+      swipeSequence = []; // 重置滑动序列（如果不是有效的滑动方向）
+    }
+  });
+  
+  function getSwipeDirection() {
+    var deltaX = touchEndX - touchStartX;
+    var deltaY = touchEndY - touchStartY;
+    
+    if (Math.abs(deltaX) > Math.abs(deltaY)) {
+      // 左右滑动
+      if (deltaX > 0) {
+        return 'r'; // 向右滑动
+      } else if (deltaX < 0) {
+        return 'l'; // 向左滑动
+      }
+    } else {
+      // 上下滑动
+      if (deltaY > 0) {
+        return 'd'; // 向下滑动
+      } else if (deltaY < 0) {
+        return 'u'; // 向上滑动
+      }
+    }
+    
+    return null; // 没有有效的滑动方向
+  }
 });
 </script>
