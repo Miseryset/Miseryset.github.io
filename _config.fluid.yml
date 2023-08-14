@@ -488,7 +488,7 @@ index:
   # 首页 Banner 头图，可以是相对路径或绝对路径，以下相同
   # Path of Banner image, can be a relative path or an absolute path, the same on other pages
 #  banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20220125/70e084dd5c1b6407.6qlkr1l6i8hs.webp
-  banner_img: https://101.43.39.125/HexoFiles/new/bg-trans.png
+  banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20230815/IMG_20230815_071524.png
   
   # 首页 Banner 使用随机视频
   # true 开启  false 关闭
@@ -565,7 +565,7 @@ index:
 #---------------------------
 post:
 #  banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20220125/70e084dd5c1b6407.6qlkr1l6i8hs.webp
-  banner_img: https://101.43.39.125/HexoFiles/new/bg-trans.png
+  banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20230815/IMG_20230815_071524.png
   banner_img_height: 70
   banner_mask_alpha: 0
 
@@ -929,7 +929,7 @@ discuss:
 #---------------------------
 archive:
 #  banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20221120/xxx.77w2doj2t9fk.png
-  banner_img: https://101.43.39.125/HexoFiles/new/bg-trans.png
+  banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20230815/IMG_20230815_071524.png
 #  banner_img_height: 60
 #  banner_mask_alpha: 0.3
   banner_img_height: 70
@@ -943,7 +943,7 @@ archive:
 category:
   enable: true
 #  banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20221120/xxx.77w2doj2t9fk.png
-  banner_img: https://101.43.39.125/HexoFiles/new/bg-trans.png
+  banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20230815/IMG_20230815_071524.png
 #  banner_img_height: 60
 #  banner_mask_alpha: 0.3
   banner_img_height: 70
@@ -975,7 +975,7 @@ category:
 tag:
   enable: true
 #  banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20221120/xxx.vkhkepfoh8g.png
-  banner_img: https://101.43.39.125/HexoFiles/new/bg-trans.png
+  banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20230815/IMG_20230815_071524.png
 #  banner_img_height: 80
 #  banner_mask_alpha: 0.3
   banner_img_height: 70
@@ -995,7 +995,7 @@ tag:
 about:
   enable: true
 #  banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20221120/xxx.vkhkepfoh8g.png
-  banner_img: https://101.43.39.125/HexoFiles/new/bg-trans.png
+  banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20230815/IMG_20230815_071524.png
 #  banner_img_height: 60
 #  banner_mask_alpha: 0.3
   banner_img_height: 70
@@ -1036,7 +1036,7 @@ page:
 page404:
   enable: true
 #  banner_img: /img/default.png
-  banner_img: https://101.43.39.125/HexoFiles/new/bg-trans.png
+  banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20230815/IMG_20230815_071524.png
   banner_img_height: 70
   banner_mask_alpha: 0
   # 重定向到首页的延迟(毫秒)
