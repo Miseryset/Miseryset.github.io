@@ -1,70 +1,76 @@
 (function() {
 
-    var encrypted = document.getElementsByClassName('hbe-container')
-    if (encrypted.length != 0) {
+    // var _encrypted = document.getElementsByClassName('hbe-container')
+    // if (_encrypted.length != 0) {
+        // return;
+    // }
+
+    var _times = document.getElementsByTagName('time');
+    if (_times.length === 0) {
+        return;
+    }
+    var _posts = document.getElementsByClassName('post-content');
+    if (_posts.length === 0) {
         return;
     }
 
-    var times = document.getElementsByTagName('time');
-    if (times.length === 0) {
-        return;
-    }
-    var posts = document.getElementsByClassName('post-content');
-    if (posts.length === 0) {
-        return;
-    }
+    var _pubTime = new Date(_times[0].dateTime); /* 文章发布时间戳 */
+    var _now = Date.now() /* 当前时间戳 */
+    var _interval = parseInt(_now - _pubTime)
 
-    var pubTime = new Date(times[0].dateTime); /* 文章发布时间戳 */
-    var now = Date.now() /* 当前时间戳 */
-    var interval = parseInt(now - pubTime)
 
+    var targetParagraph = document.getElementById("seo-header");
+    var newDiv = document.createElement("div");
+    newDiv.className = "note note-info";
+    newDiv.style.fontSize = "0.9rem";
+    newDiv.innerHTML = '本文写于： ' + fmt(_pubTime);
+    targetParagraph.parentNode.insertBefore(newDiv, targetParagraph);
+    
+    
     /* 发布时间超过指定时间（毫秒） */
-    if (interval > 3600 * 24 * 15 * 1000) {
-        var days = parseInt(interval / 86400000)
-        /*
-        posts[0].innerHTML = '<div class="note note-warning" style="font-size:0.9rem"><p>' +
-            '<div class="h6">文章时效性提示</div><p>这是一篇发布于 ' + days + ' 天前的文章，部分信息可能已发生改变，请注意甄别。' +
-            '</p></p></div>' + posts[0].innerHTML;
-        */
-        posts[0].innerHTML = '<div class="note note-warning" style="font-size:0.9rem"><p>' +
-            '这是一篇发布于 ' + days + ' 天前的文章，部分信息可能已发生改变，请注意甄别。' +
-            '</p></div>' + posts[0].innerHTML;
+    if (_interval > 3600 * 24 * 15 * 1000) {
+        var _days = parseInt(_interval / 86400000)
+        
+        
+        var targetParagraph = document.getElementById("seo-header");
+        var newDiv = document.createElement("div");
+        newDiv.className = "note note-warning";
+        newDiv.style.fontSize = "0.9rem";
+        newDiv.innerHTML = '这是一篇发布于 ' + _days + ' 天前的文章，部分信息可能已发生改变，请注意甄别。';
+        targetParagraph.parentNode.insertBefore(newDiv, targetParagraph);
+        
+        
     }
-
-    posts[0].innerHTML = '<div class="note note-info" style="font-size:0.9rem"><p>' +
-        '本文写于： ' + fmt(pubTime) +
-        '</p></div>' + posts[0].innerHTML;
-
 })();
 
-function fmt(aaa) {
+function fmt(_aaa) {
     //datetime是拿到的时间戳
-    var date = aaa //时间戳为10位需*1000，时间戳为13位的话不需乘1000 
-    var year = date.getFullYear(),
-        month = ("" + (date.getMonth() + 1))
+//    var _date = _aaa //时间戳为10位需*1000，时间戳为13位的话不需乘1000 
+    var _year = _aaa.getFullYear(),
+        _month = ("" + (_aaa.getMonth() + 1))
             .slice(-2),
-        sdate = ("" + date.getDate())
+        _sdate = ("" + _aaa.getDate())
             .slice(-2),
-        hour = ("" + date.getHours())
+        _hour = ("" + _aaa.getHours())
             .slice(-2),
-        minute = ("" + date.getMinutes())
+        _minute = ("" + _aaa.getMinutes())
             .slice(-2),
-        second = ("" + date.getSeconds())
+        _second = ("" + _aaa.getSeconds())
             .slice(-2);
-    var ap;
-    if (hour >= 0 && hour < 6) {
-        ap = "凌晨"
-    } else if (hour >= 6 && hour < 12) {
-        ap = "上午"
-    } else if (hour >= 12 && hour < 18) {
-        ap = "下午"
+    var _ap;
+    if (_hour >= 0 && _hour < 6) {
+        _ap = "凌晨"
+    } else if (_hour >= 6 && _hour < 12) {
+        _ap = "上午"
+    } else if (_hour >= 12 && _hour < 18) {
+        _ap = "下午"
     } else {
-        ap = "晚上"
+        _ap = "晚上"
     }
 
     // 拼接
     //var result = year + "年" + month + "月" + sdate + "日 " + hour + ":" + minute + ":" + second;
-    var result = year + "年" + month + "月" + sdate + "日 " + ap;
+    var _result = _year + "年" + _month + "月" + _sdate + "日 " + _ap;
     // 返回
-    return result;
+    return _result;
 }
