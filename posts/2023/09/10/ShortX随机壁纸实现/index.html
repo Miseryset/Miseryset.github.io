@@ -26,7 +26,7 @@
 <meta property="og:description" content="利用ShortX shell脚本配合magick裁剪图片设置壁纸">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2023-09-10T18:37:54.000Z">
-<meta property="article:modified_time" content="2023-09-10T18:41:54.000Z">
+<meta property="article:modified_time" content="2023-09-12T19:35:54.000Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -285,7 +285,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          1.8k 字
+          1.9k 字
         
       </span>
     
@@ -418,7 +418,7 @@
               <p class="note note-info">
                 
                   
-                    本文最后更新于：2023年9月10日 晚上
+                    本文最后更新于：2023年9月12日 晚上
                   
                 
               </p>
@@ -432,7 +432,7 @@
 <p>  <a target="_blank" rel="noopener" href="https://shortx-repo.github.io/ShortX-Pages/zh/2022/12/01/shortx-intro.html">ShortX是什么</a></p>
 <h4 id="随机壁纸实现"><a class="header-anchor" href="#随机壁纸实现">☆</a>随机壁纸实现</h4>
 <p>  使用shell脚本返回目录中随机图片路径</p>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs bash">_path=<span class="hljs-string">&quot;globalVarOf<span class="hljs-variable">$_wallpaper_path</span>&quot;</span><br><br><span class="hljs-built_in">cd</span> <span class="hljs-string">&quot;<span class="hljs-variable">$_path</span>&quot;</span><br><br>random_filename=$(find . -<span class="hljs-built_in">type</span> f \( -name <span class="hljs-string">&quot;*.jpg&quot;</span> -o -name <span class="hljs-string">&quot;*.JPG&quot;</span> -o -name <span class="hljs-string">&quot;*.png&quot;</span> -o -name <span class="hljs-string">&quot;*.PNG&quot;</span> \) | <span class="hljs-built_in">shuf</span> -n 1)<br>random_filename=<span class="hljs-string">&quot;<span class="hljs-variable">$&#123;random_filename#./&#125;</span>&quot;</span><br><br><span class="hljs-built_in">echo</span> <span class="hljs-string">&quot;<span class="hljs-variable">$_path</span>/<span class="hljs-variable">$random_filename</span>&quot;</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><code class="hljs shell">_path=&quot;globalVarOf$_wallpaper_path&quot;<br><br>cd &quot;$_path&quot;<br><br>random_filename=$(find . -type f \( -name &quot;*.jpg&quot; -o -name &quot;*.JPG&quot; -o -name &quot;*.png&quot; -o -name &quot;*.PNG&quot; \) | shuf -n 1)<br>random_filename=&quot;$&#123;random_filename#./&#125;&quot;<br><br>echo &quot;$_path/$random_filename&quot;<br></code></pre></td></tr></table></figure>
 <p>  前提是需要一个全局变量<code>_wallpaper_path</code>方便修改壁纸路径</p>
 <ul>
 <li>将全局变量的值传入<code>_path</code></li>
@@ -447,15 +447,16 @@
 <figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><code class="hljs text">──system<br>  └bin<br>    └magick<br>  └lib64<br>    └libc++_shared.so<br>    └libomp.so<br></code></pre></td></tr></table></figure>
 <p>设置权限755，输入即可</p>
 <h5 id="shell脚本裁剪"><a class="header-anchor" href="#shell脚本裁剪">☆</a>shell脚本裁剪</h5>
-<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><code class="hljs bash">magick <span class="hljs-string">&quot;<span class="hljs-variable">$&#123;random_filename&#125;</span>&quot;</span> -resize 1080x <span class="hljs-string">&quot;/data/adb/wallpaper.jpg&quot;</span><br><br>wallpaper_height=$(magick identify -format <span class="hljs-string">&quot;%w&quot;</span> <span class="hljs-string">&quot;/data/adb/wallpaper.jpg&quot;</span>)<br><br><span class="hljs-keyword">if</span> [ <span class="hljs-string">&quot;<span class="hljs-variable">$wallpaper_height</span>&quot;</span> -ge 2340 ]; <span class="hljs-keyword">then</span><br>  magick <span class="hljs-string">&quot;/data/adb/wallpaper.jpg&quot;</span> -gravity center -crop 1080x2340+0+0 +repage <span class="hljs-string">&quot;/data/adb/wallpaper1.jpg&quot;</span><br><span class="hljs-keyword">else</span><br>  magick <span class="hljs-string">&quot;<span class="hljs-variable">$&#123;random_filename&#125;</span>&quot;</span> -resize x2340 <span class="hljs-string">&quot;/data/adb/wallpaper2.jpg&quot;</span><br>  magick <span class="hljs-string">&quot;/data/adb/wallpaper2.jpg&quot;</span> -blur 0x6 <span class="hljs-string">&quot;/data/adb/wallpaper3.jpg&quot;</span><br>  magick convert <span class="hljs-string">&quot;/data/adb/wallpaper3.jpg&quot;</span> <span class="hljs-string">&quot;/data/adb/wallpaper.jpg&quot;</span> -gravity center -composite <span class="hljs-string">&quot;/data/adb/wallpaper1.jpg&quot;</span><br>  magick convert <span class="hljs-string">&quot;/data/adb/wallpaper1.jpg&quot;</span> -gravity center -crop 1080x2340+0+0 +repage <span class="hljs-string">&quot;/data/adb/wallpaper1.jpg&quot;</span><br><span class="hljs-keyword">fi</span><br></code></pre></td></tr></table></figure>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><code class="hljs shell">magick &quot;$&#123;random_filename&#125;&quot; -resize x2340 &quot;/data/adb/wallpaper.jpg&quot;<br>wallpaper_width=$(magick identify -format &quot;%w&quot; &quot;/data/adb/wallpaper.jpg&quot;)<br>if [ &quot;$&#123;wallpaper_width&#125;&quot; -ge 1080 ] &amp;&amp; [ &quot;$&#123;wallpaper_width&#125;&quot; -le 1950 ]; then<br>  magick &quot;/data/adb/wallpaper.jpg&quot; -gravity center -crop 1080x2340+0+0 +repage &quot;/data/adb/wallpaper1.jpg&quot;<br>else<br>  magick &quot;/data/adb/wallpaper.jpg&quot; -blur 0x4 &quot;/data/adb/wallpaper_blur.jpg&quot;<br>  magick &quot;$&#123;random_filename&#125;&quot; -resize 1080x &quot;/data/adb/wallpaper2.jpg&quot;<br>  magick convert &quot;/data/adb/wallpaper_blur.jpg&quot; &quot;/data/adb/wallpaper2.jpg&quot; -gravity center -composite &quot;/data/adb/wallpaper1.jpg&quot;<br>  magick convert &quot;/data/adb/wallpaper1.jpg&quot; -gravity center -crop 1080x2340+0+0 +repage &quot;/data/adb/wallpaper1.jpg&quot;<br>fi<br></code></pre></td></tr></table></figure>
 <ul>
-<li>重设图片宽度1080，保证宽高比，输出文件<code>/data/adb/wallpaper.jpg</code></li>
-<li>判断重设宽度后图片的高度</li>
-</ul>
+<li>重设图片高度2340，保证宽高比，输出文件<code>/data/adb/wallpaper.jpg</code></li>
+<li>判断重设宽度后图片的宽度
 <ol>
-<li>若高度大于2340，就居中裁剪1080*2340</li>
-<li>若高度小于2340，就依照2340高度再重设一张<code>/data/adb/wallpaper2.jpg</code>，并给它加上模糊，输出为<code>/data/adb/wallpaper3.jpg</code>，然后把模糊的作为背景，把宽度为1080的依照中心锚点合并，最后再切出1080*2340，输出为<code>/data/adb/wallpaper1.jpg</code></li>
+<li>若宽度度大于1080，就居中裁剪1080*2340</li>
+<li>若宽度小于1080，就依照1080宽度再重设一张<code>/data/adb/wallpaper2.jpg</code>，并给2340高的那张加上模糊，输出为<code>/data/adb/wallpaper_blur.jpg</code>，然后把模糊的作为背景，把宽度为1080的依照中心锚点合并，最后再切出1080*2340，输出为<code>/data/adb/wallpaper1.jpg</code></li>
 </ol>
+</li>
+</ul>
 <h3 id="设置壁纸"><a class="header-anchor" href="#设置壁纸">☆</a>设置壁纸</h3>
 <p>  直接使用ShortX内部动作设置壁纸实现即可，路径<code>/data/adb/wallpaper.jpg</code><br>
   不要忘了日后删除<code>/data/adb</code>下面的几张图片呐，当然也可以输出到其他位置</p>
