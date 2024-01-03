@@ -2,7 +2,7 @@
 title: 常用导航
 layout: collection
 date: 2023-05-21 09:49:58
-banner_img: https://cdn.staticaly.com/gh/Miseryset/PicX@master/20230815/IMG_20230815_071524.png
+banner_img: https://cdn.jsdelivr.net/gh/Miseryset/PicX@master/20230815/IMG_20230815_071524.png
 banner_img_height: 70
 banner_mask_alpha: 0
 ---
