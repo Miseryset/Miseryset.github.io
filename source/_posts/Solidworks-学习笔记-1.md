@@ -67,11 +67,11 @@ banner_img:
 &emsp;&emsp;把上一步中的那些配置都拆分出来
 &emsp;&emsp;先看一下保存选项，在 设置-性能-清除缓存配置数据 选项开启
 ![1729400795173](https://cdn.jsdelivr.net/gh/Miseryset/PicX@master/20241020/1729400795173.webp)
-&emsp;&emsp;把设计树栏点到其他非配置截面（似乎能提高性能？）
+&emsp;&emsp;把设计树栏点到其他非配置界面（似乎能提高性能？）
 ![1729401418143](https://cdn.jsdelivr.net/gh/Miseryset/PicX@master/20241020/1729401418143.webp)
 &emsp;&emsp;然后标题栏 工具-宏-新建
 ![1729401689693](https://cdn.jsdelivr.net/gh/Miseryset/PicX@master/20241020/1729401689693.webp)
-&emsp;&emsp;选定保存位置之后，会自动打开宏编辑截面
+&emsp;&emsp;选定保存位置之后，会自动打开宏编辑界面
 ![1729401851396](https://cdn.jsdelivr.net/gh/Miseryset/PicX@master/20241020/1729401851396.webp)
 &emsp;&emsp;把原有的代码全部删掉，然后把下面的代码粘贴进去
 ```
