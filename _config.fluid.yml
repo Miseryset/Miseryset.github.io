@@ -249,7 +249,8 @@ custom_js:
 # The usage is the same as custom_js
 custom_css:
 - /css/global.css
-- /css/iconfont.css
+# - /css/iconfont.css
+- //at.alicdn.com/t/c/font_4747769_448mfz3ra2e.css
 - /css/loading.css
 - /css/footer_icon_animation.css
 - /css/color.css
