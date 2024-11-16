@@ -2,7 +2,7 @@
   padding-bottom:1.5rem;
 }
 a>li {
-  color: var(--main-c);
+  color: var(--navbar-text-color);
 }
 a.active>li {
   color: #fff;
