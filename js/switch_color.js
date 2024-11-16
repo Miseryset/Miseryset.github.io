@@ -16,3 +16,8 @@ var g=rr();
 var b=rr();
 var rc="rgb("+r+","+g+","+b+")"
 document.documentElement.style.setProperty('--global-main-color', rc);
+
+var sc="#B53B51";
+document.documentElement.style.setProperty('--post-link-color', sc);
+document.documentElement.style.setProperty('--line-color', sc);
+document.documentElement.style.setProperty('--navbar-text-color', sc);
