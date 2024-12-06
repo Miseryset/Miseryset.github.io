@@ -1,0 +1,30 @@
+/*首页文章标题 发布时间 标签（不含标签页） 页脚hexo和fluid渐变*/
+h2>a,div>time,div[class*="post-meta"]>a[href^="/tags"],div[class*="footer-content"]>a>span {
+    background: linear-gradient(-45deg, #ffa6a6, #a6cbff);
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+/*首页文章的小图标 关于页小图标*/
+div[class*="post-meta"]>i,div>a>i,.icon-love {
+    background: linear-gradient(-45deg, #a6cbff ,#ffa6a6);
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*文章页信息渐变。“分类渐变”*/
+div>span[class*="post-meta"],span[class*="category-chain"] {
+    background: linear-gradient(-45deg, #ff96bd ,#96b8ff);
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*页脚运行时间*/
+#runspan {
+    background: linear-gradient(-45deg, #ff96bd ,#96b8ff);
+    background-size: 100% 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
