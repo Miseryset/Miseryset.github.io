@@ -1,0 +1,65 @@
+.container-fluid {
+  padding-bottom:1.5rem;
+}
+a>li {
+  color: var(--navbar-text-color);
+}
+a.active>li {
+  color: #fff;
+}
+/* 胶囊导航改变样式*/
+.nav-pills>a.active,
+.nav-pills>a.active:focus,
+.nav-pills>a.active:hover {
+  background-color: var(--global-main-color);
+}
+.tool-nav ul a {
+  padding:20px;
+  padding-right:auto;
+  padding-left:auto;
+  margin:10px;
+  margin-right:auto;
+  margin-left:auto;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+/* 工具明细分类样式*/
+.tool-li {
+  height:100px;
+  margin:2.5rem;
+  padding-right:1.5rem;
+  padding-left:1.5rem;
+  margin-right:auto;
+  margin-left:auto;
+}
+.tool-li .tool-li-li {
+  width:100%;
+  height:100%;
+  border-radius: 10px;
+}
+.tool-li .tool-li-li i {
+  line-height: 100px;
+  font-size:3rem;
+  color:#f7f7f7;
+}
+.tool-li .text-color-height {
+  color:#777;
+  /*height:5rem;*/
+  font-size:12px;
+  margin-bottom: 5px;
+}
+/* 设置工具明细中鼠标滑动效果*/
+.tool-li-li:hover {
+  position: relative;
+  top: -1px;
+  box-shadow: 0 10px 10px #ddd;
+  transition: 0.3s;
+}
+.tool-li-li:hover i {
+  /* 首先，图标的实现是:before伪元素控制的 :before伪元素默认是行内元素（即display: inline） 行内元素旋转无效，所以需要给.rotate:before伪元素加上display: inline-block，使其变为行内块元素。*/
+  display: inline-block;
+  font-size:3.5rem;
+  color:#fff;
+  transform: rotate(25deg);
+  transition: 0.3s;
+}

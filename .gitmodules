@@ -1,0 +1,7 @@
+[submodule "source/_posts/SecretPostForHexo"]
+	path = source/_posts/SecretPostForHexo
+	url = git@github.com:Miseryset/SecretPostForHexo.git
+[submodule "source/collection/hided"]
+	path = source/collection/hided
+	url = git@github.com:Miseryset/SecretPostForHexo.git
+	branch = page
